@@ -1,1 +1,44 @@
 /* Write your CSS here */
+.bg-container {
+  background-color: #ffffff;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dark {
+  background-color: #000000;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  padding: 20px;
+  border: 1px #000000 solid;
+  border-radius: 6px;
+}
+
+.light {
+  background-color: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  padding: 20px;
+  border: 1px #000000 solid;
+  border-radius: 6px;
+}
+
+.btnLight {
+  background: #ffffff;
+  border-radius: 6px;
+  border: 1px #000000 solid;
+  width: 130px;
+  height: 40px;
+}
